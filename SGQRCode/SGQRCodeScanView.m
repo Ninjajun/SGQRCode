@@ -194,7 +194,7 @@
     } else {
         [self addSubview:self.scanningline];
         scanninglineW = scanBorderW;
-        scanninglineH = 12;
+        scanninglineH = 2;
         scanninglineX = scanBorderX;
         scanninglineY = scanBorderY;
         _scanningline.frame = CGRectMake(scanninglineX, scanninglineY, scanninglineW, scanninglineH);
